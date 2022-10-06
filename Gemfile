@@ -70,3 +70,14 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "capistrano"
+gem "capistrano3-puma"
+gem "capistrano-rails", require: false
+gem "capistrano-bundler", require: false
+# gem "capistrano-rvm"
+gem "capistrano-rbenv"
+
+gem 'net-ssh', '>= 6.0.2'
+gem 'ed25519', '>= 1.2', '< 2.0'
+gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
