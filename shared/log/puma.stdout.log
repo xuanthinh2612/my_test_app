@@ -1,0 +1,16 @@
+=== puma startup: 2022-10-06 07:12:30 +0700 ===
+[6506] * Starting control server on unix:///tmp/puma-status-1665015150441-6506
+[6506] - Worker 0 (PID: 6522) booted in 0.28s, phase: 0
+[6506] - Worker 1 (PID: 6524) booted in 0.28s, phase: 0
+[6506] - Gracefully shutting down workers...
+[6506] === puma shutdown: 2022-10-06 07:12:35 +0700 ===
+[6506] - Goodbye!
+Exiting
+=== puma startup: 2022-10-06 07:12:39 +0700 ===
+[6588] * Starting control server on unix:///tmp/puma-status-1665015159356-6588
+[6588] - Worker 0 (PID: 6604) booted in 0.13s, phase: 0
+[6588] - Worker 1 (PID: 6606) booted in 0.14s, phase: 0
+[6588] - Gracefully shutting down workers...
+[6588] === puma shutdown: 2022-10-06 07:20:59 +0700 ===
+[6588] - Goodbye!
+Exiting

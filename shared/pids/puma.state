@@ -1,0 +1,5 @@
+---
+pid: 6588
+control_url: unix:///tmp/puma-status-1665015159356-6588
+control_auth_token: d9dfb70bbc952e74fb4ad59198b889bd
+running_from: "/home/thinh-pc/Desktop/my_test_app"

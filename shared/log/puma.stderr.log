@@ -1,0 +1,6 @@
+=== puma startup: 2022-10-06 07:12:30 +0700 ===
+DEBUGGER: Attaching after process 6506 fork to child process 6522
+DEBUGGER[bin/rails#6524]: Attaching after process 6506 fork to child process 6524
+=== puma startup: 2022-10-06 07:12:39 +0700 ===
+DEBUGGER: Attaching after process 6588 fork to child process 6604
+DEBUGGER[bin/rails#6606]: Attaching after process 6588 fork to child process 6606
