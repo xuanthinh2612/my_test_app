@@ -35,7 +35,7 @@ set :bundle_flags, "--no-deployment"
 # role :web, ["#{fetch(user)}@#{fetch(server_name)}"]
 # role :db,  ["#{fetch(user)}@#{fetch(server_name)}"]
 
-server '18.181.252.168', user: 'thinhtran', roles: %w{web app db}, primary: true
+server '13.230.28.158', user: 'thinhtran', roles: %w{web app db}, primary: true
 
 
 # Configuration
