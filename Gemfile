@@ -74,6 +74,8 @@ end
 gem "capistrano"
 gem "capistrano3-puma"
 gem "capistrano-rails", require: false
+gem 'capistrano-passenger'
+gem "capistrano-yarn"
 gem "capistrano-bundler", require: false
 gem "capistrano-rbenv"
 
