@@ -26,7 +26,7 @@
 # set :user, 'thinhtran'
 # set :server_name, '35.78.120.219'
 #Set branch trên Git mà bạn muốn deploy
-# set :branch, 'master'
+set :branch, 'master'
 #Set môi trường, ở đây mình thiết lâp cho môi trường production
 set :rails_env, 'production'
 set :bundle_flags, "--no-deployment"
@@ -35,7 +35,7 @@ set :bundle_flags, "--no-deployment"
 # role :web, ["#{fetch(user)}@#{fetch(server_name)}"]
 # role :db,  ["#{fetch(user)}@#{fetch(server_name)}"]
 
-server '18.183.49.202', user: 'thinhtran', roles: %w{web app db}, primary: true
+server '18.181.252.168', user: 'thinhtran', roles: %w{web app db}, primary: true
 
 
 # Configuration
