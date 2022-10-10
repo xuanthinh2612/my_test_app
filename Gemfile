@@ -77,6 +77,9 @@ gem "capistrano-rails", require: false
 gem "capistrano-bundler", require: false
 gem "capistrano-rbenv"
 
+gem 'dotenv-rails', '~> 2.8', '>= 2.8.1'
+gem 'dotenv', '~> 2.8', '>= 2.8.1'
+
 gem 'net-ssh', '>= 6.0.2'
 gem 'ed25519', '>= 1.2', '< 2.0'
 gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
