@@ -14,4 +14,5 @@ require 'capistrano/puma'
 require 'capistrano/puma/nginx'
 
 install_plugin Capistrano::Puma, load_hooks: true
+install_plugin Capistrano::Puma::Systemd
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
