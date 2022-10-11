@@ -39,7 +39,7 @@ set :deploy_to, "/var/www/my_test_app"
 # role :web, ["#{fetch(user)}@#{fetch(server_name)}"]
 # role :db,  ["#{fetch(user)}@#{fetch(server_name)}"]
 
-server '18.177.149.164', user: 'ubuntu', roles: %w{web app db}, primary: true
+server '18.177.149.164', user: 'thinhtran', roles: %w{web app db}, primary: true
 
 
 # Configuration
