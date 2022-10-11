@@ -78,6 +78,7 @@ gem 'capistrano-passenger'
 gem "capistrano-yarn"
 gem "capistrano-bundler", require: false
 gem "capistrano-rbenv"
+gem "capistrano-rvm"
 
 gem 'dotenv-rails', '~> 2.8', '>= 2.8.1'
 gem 'dotenv', '~> 2.8', '>= 2.8.1'

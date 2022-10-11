@@ -22,20 +22,24 @@
 # role :db,  %w{deploy@example.com}
 
 #config/deploy/production.rb
+
+
+set :stage, :production
+set :rails_env, :production
+set :branch, "master"
+set :deploy_to, "/var/www/my_test_app"
+
 #Set user và và server_name của bạn
 # set :user, 'thinhtran'
 # set :server_name, '35.78.120.219'
 #Set branch trên Git mà bạn muốn deploy
-set :branch, 'master'
 #Set môi trường, ở đây mình thiết lâp cho môi trường production
-set :rails_env, 'production'
-set :bundle_flags, "--no-deployment"
 
 # role :app, ["#{fetch(user)}@#{fetch(server_name)}"]
 # role :web, ["#{fetch(user)}@#{fetch(server_name)}"]
 # role :db,  ["#{fetch(user)}@#{fetch(server_name)}"]
 
-server '13.230.28.158', user: 'thinhtran', roles: %w{web app db}, primary: true
+server '18.177.149.164', user: 'thinhtran', roles: %w{web app db}, primary: true
 
 
 # Configuration
