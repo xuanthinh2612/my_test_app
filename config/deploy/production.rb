@@ -38,8 +38,9 @@ set :deploy_to, "/var/www/my_test_app"
 # role :app, ["#{fetch(user)}@#{fetch(server_name)}"]
 # role :web, ["#{fetch(user)}@#{fetch(server_name)}"]
 # role :db,  ["#{fetch(user)}@#{fetch(server_name)}"]
+ask(:password, nil, echo: false)
 
-server '18.177.149.164', user: 'thinhtran', roles: %w{web app db}, primary: true
+server '18.177.149.164', user: 'thinhtran', roles: %w{web app db}, primary: true, password: 'anhthinh2612'
 
 
 # Configuration
